@@ -1,0 +1,35 @@
+/* 
+    Document   : orm
+    Created on : 04-dic-2012, 21:38:26
+    Author     : pablomartin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    font-size:13px; 
+    background-color: #EEE;
+}
+
+#tables tbody tr:hover{
+    cursor: pointer;
+    background-color: #a3e6ff;
+}
+
+#fieldsTable tr:hover{
+    cursor: pointer;
+    background-color: #a3e6ff;
+    color: #000;
+}
+
+#foreingTable tr:hover{
+    cursor: pointer;
+    background-color: #a3e6ff;
+    color: #000;
+}
+
+.trselected{
+    background-color: #a3e6ff;
+    color: #000;
+    font-weight: bold;
+}
